@@ -1,0 +1,27 @@
+<!doctype html>
+<!-- The Lunar-Way jekyll theme was designed and developed by Lunarantic. -->
+<!-- Follow him for fun. http://twitter.com/lunarantic. -->
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body>
+
+  <div>
+    <header>
+      <h1>{{ site.title | default: site.github.repository_name }}</h1>
+    </header>
+    <div>
+      <p>{{ site.description | default: site.github.project_tagline }}</p>
+      <div>
+        <article>
+          {{ content }}
+        </article>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
