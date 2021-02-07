@@ -1,0 +1,5 @@
+title: Lunar-Way theme
+description: Lunar-Way is a jekyll based theme.
+theme: jekyll-theme-lunar-way
+plugins:
+  - jemoji
